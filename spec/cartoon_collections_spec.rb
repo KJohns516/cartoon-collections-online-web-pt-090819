@@ -8,7 +8,7 @@ describe 'Cartoon Collections' do
       output = capture_stdout do
         roll_call_dwarves(dwarves)
       end
-    roll_call_dwarves
+   puts roll_call_dwarves
       # This regex allows for arbitrary characters between
       # the numbering and the name
       expect(output).to match(/1.*Dopey/)
