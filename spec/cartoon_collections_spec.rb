@@ -11,7 +11,7 @@ describe 'Cartoon Collections' do
   
       # This regex allows for arbitrary characters between
       # the numbering and the name
-      puts roll_call_dwarves
+      puts roll_call_dwarves {"# Doc, Dopey,Bashful, Grumpy} "
       expect(output).to match(/1.*Dopey/)
       expect(output).to match(/2.*Grumpy/)
       expect(output).to match(/3.*Bashful/)
